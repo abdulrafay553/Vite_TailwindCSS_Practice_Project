@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+            ></path>
+          </svg>
+          <span class="ml-3 text-xl">ABC Company</span>
+        </a>
+        <nav
+          class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center"
+        >
+          <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
+          <a class="mr-5 hover:text-gray-900" href="about.html">About</a>
+          <a class="mr-5 hover:text-gray-900" href="contact.html">Contact</a>
+          <a class="mr-5 hover:text-gray-900" href="login.html">Login</a>
+          <a class="mr-5 hover:text-gray-900" href="blogs.html">Blogs</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class=" font-poppins">
+        <div
+            class="relative z-10 flex items-center h-screen py-16 overflow-hidden lg:bg-blue-900 lg:dark:bg-gray-800 2xl:py-44">
+            <div
+                class="absolute top-0 left-0 w-full h-full lg:bg-blue-900 dark:bg-bg-gray-700 lg:bottom-0 lg:h-auto lg:w-4/12">
+                <img src="https://i.postimg.cc/XJBZvxHp/first.jpg" alt=""
+                    class="hidden object-cover w-full h-full lg:block">
+            </div>
+            <div class="relative max-w-6xl px-4 mx-auto">
+                <div class="justify-center max-w-xl mx-auto lg:max-w-5xl">
+                    <div class="flex flex-wrap items-center -mx-4">
+                        <div class="w-full px-4 lg:w-2/5">
+                            <div class="z-10 w-full p-10 shadow-md bg-gray-50 dark:bg-gray-900 rounded-lg ">
+                                <h2 class="text-xl font-bold leading-tight mb-7 md:text-2xl dark:text-gray-300">
+                                    Login to your account</h2>
+                                <form action="" class="mt-4">
+                                    <div>
+                                        <label for="" class="block text-gray-700 dark:text-gray-300">Email:</label>
+                                        <input type="email"
+                                            class="w-full px-4 py-3 mt-2 bg-gray-200 rounded-lg dark:text-gray-100 dark:bg-gray-800"
+                                            name="" placeholder="Enter your email">
+                                    </div>
+                                    <div class="mt-4">
+                                        <div>
+                                            <label for="" class="text-gray-700 dark:text-gray-300 ">Password:</label>
+                                            <div class="relative flex items-center mt-2">
+                                                <input type="password"
+                                                    class="w-full px-4 py-3 bg-gray-200 rounded-lg dark:text-gray-400 dark:bg-gray-800 "
+                                                    name="" placeholder="Enter password">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    class="absolute right-0 mr-3 dark:text-gray-300" fill="currentColor"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z">
+                                                    </path>
+                                                    <path
+                                                        d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z">
+                                                    </path>
+                                                    <path
+                                                        d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 text-right">
+                                        <a href="#" class="text-sm font-semibold text-blue-700 hover:underline">forgot
+                                            password?</a>
+                                    </div>
+                                    <button
+                                        class="w-full px-4 py-3 mt-4 font-semibold text-gray-700 bg-yellow-400 rounded-lg hover:text-gray-700 hover:bg-blue-200 "
+                                        type="submit">LOGIN</button>
+                                    <div class="mt-4 text-gray-700  dark:text-gray-300">
+                                        Need
+                                        an account?
+                                        <a href="login.html" class="font-semibold text-blue-700 hover:underline">
+                                            Create an account </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="hidden w-full px-6 mb-16 lg:w-3/5 lg:mb-0 lg:block">
+                            <span
+                                class="flex items-center justify-center w-20 h-20 mx-auto text-gray-900 bg-yellow-400 rounded-lg dark:bg-yellow-300 mb-9">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                    <path fill-rule="evenodd"
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                </svg>
+                            </span>
+                            <h2
+                                class="text-4xl font-bold text-center text-gray-100 dark:text-gray-400 mb-9 lg:text-6xl ">
+                                Are you ready to login our account?</h2>
+                            <p class="text-xl font-semibold text-center text-gray-200 dark:text-gray-500 ">You are welcome here!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="text-gray-600 body-font">
+      <div
+        class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      >
+        <div
+          class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
+        >
+          <a
+            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+              ></path>
+            </svg>
+            <span class="ml-3 text-xl">ABC Company</span>
+          </a>
+          <p class="mt-2 text-sm text-gray-500">
+            Air plant banjo lyft occupy retro adaptogen indego
+          </p>
+        </div>
+        <div
+          class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"
+        >
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray-100">
+        <div
+          class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
+        >
+          <p class="text-gray-500 text-sm text-center sm:text-left">
+            © 2020 Tailblocks —
+            <a
+              href="https://twitter.com/knyttneve"
+              rel="noopener noreferrer"
+              class="text-gray-600 ml-1"
+              target="_blank"
+              >@knyttneve</a
+            >
+          </p>
+          <span
+            class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
+          >
+            <a class="text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="0"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                ></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
